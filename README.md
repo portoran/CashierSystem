@@ -13,7 +13,7 @@ Andi is a large supermarket owner in one of the cities in Indonesia. Andi plans 
 
 After conducting research, Andi encountered a problem, which is that he needs a programmer to create features that will allow the self-service cash register system in the supermarket to run smoothly.
 
-## Objectives
+## Requirements/Objectives
 To fulfill request, here are some objective I decided the program works:
 ## Technical
 1. Create a simple Cashier using Python Languange.
@@ -46,7 +46,7 @@ This project has 8 file based on Objective Above.
   
 | **Name**   | **Type** | **Input**                              | **Output** | **Description**                                                                                                                                  |
 |------------|----------|----------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| add_item() | Function | item name(str)<br/>item quantity (int)<br/>item price(int)|            | The user is prompted to enter the name quantity and price of the item and the item is then added to the list with an auto-generated item number. |
+| add_item() | Function | item name: str, item quantity: int, item price: int|            | The user is prompted to enter the name quantity and price of the item and the item is then added to the list with an auto-generated item number. |
   3. `check.py` Displays the items in the shopping list as a table.
 
  **Name**       | **Type** | **Input** | **Output** | **Description**                                                                                                      
@@ -87,14 +87,52 @@ This project has 8 file based on Objective Above.
 To use the Self-service Cashier program, simply run the code in any Python environment.
 ```python
   # Install dependencies
-  pip install requirements.txt
+  pip install requirement.txt
   
   # Run the program
   python main.py
   ```
 
-## Test Case
+## Test Program
+let's test all features in the program!
+#### Start (run main.py)
+  1. The program greets the user and asks for their name.
+     * The program generates a unique transaction ID for the customer and gets the current date and time.
 
+     ![Start Program](images/Start.png)
+  
+  2. The program prompts the user to add items to the list after input name.
+![Start Program](images/Add%20Item.png)
+  3. After input "n", the program displays a menu with different options for the user to choose from.
+![Item Menu](images/Item%20Menu.png)
+  4. If the user selects option 2, the program displays a sub-menu with options for the user to update an item's name, price, or quantity.
+     * To select the item to be changed, you can use the **item number**.
+        * in the images below, we change **pasta gigi (no 2)** to **shampoo**
+  
+     ![Update](images/Menu%202.png)
+  5. If the user selects option 3, the program displays a sub-menu with options for the user to delete an item from the list.
+     * To select the item to be changed, you can use the **item number**.
+        * in the images below, we delete **shampoo**
+   
+     ![Delete](images/Menu%203.png)
+  6. If the user selects option 4, the program displays all items on the list.
+ ![Show](images/Menu%204.png)<br/>
+      6.1. When the Shopping List is Empty then we selects option 4, the program will show the message.
+       ![Show](images/Menu%204.1.png)
+  7. If the user selects option 5, the program resets all items.
+  ![Reset](images/Menu%205.png)
+  8. If the user selects option 6, the program calculates the total price and discount of all items on the list.
+  ![Calculate](images/Menu%206.png)
+  9. If the user selects option 7, the program displays a sub-menu with options for the user to either checkout or cancel the transaction.
+     * Enter amount to pay all items on the list.
+        * Note: 
+        * Input amount below the discounted price the program will show message "Insufficient payment. Please enter a larger amount".
+        * Input amount same or higher, then you will get a change.
+
+      ![Payment](images/Menu%207.png)
+  14. If the user selects option 8, the program exit.
+![Exit](images/Menu%208.png)
+   
 ## Conclusion
 In conclusion, the above code is a program for managing a shopping list. It allows users to add, remove, update, and view items in the shopping list, as well as calculate the total price and apply discounts. Overall, it's a great demonstration of how programming can simplify our daily tasks and make our lives easier.
 
