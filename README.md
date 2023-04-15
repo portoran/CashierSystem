@@ -36,7 +36,7 @@ To fulfill request, here are some objective I decided the program works:
     * Checkout: Allows customers to checkout and input the amount then get change
 
 ## Flowchart
-![Flowchart](images/flowchart.png)
+![Flowchart](images/flowchart.jpg)
 
 ## Program Function Description
 This project has 8 file based on Objective Above.
