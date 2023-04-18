@@ -9,14 +9,14 @@ This is a cashier system program that allows customers to add, update, delete, s
 </div>
 
 ## Problem Description
-Andi is a large supermarket owner in one of the cities in Indonesia. Andi plans to improve the business process by creating a self-service cash register system in his supermarket. This way, customers can directly input the items, quantity, and price of the items they purchased, and other features. This will enable customers who are not in the city to buy goods from the supermarket. 
+Andi is a large supermarket owner in one of the cities in Indonesia. Andi plans to improve the business process by creating a self-service system in his supermarket. This way, customers can directly input the items, quantity, and price of the items they purchased, and other features. This will enable customers who are not in the city to buy goods from the supermarket. 
 
-After conducting research, Andi encountered a problem, which is that he needs a programmer to create features that will allow the self-service cash register system in the supermarket to run smoothly.
+After conducting research, Andi encountered a problem, which is that he needs a programmer to create features that will allow the self-service system in the supermarket to run smoothly.
 
 ## Requirements/Objectives
 To fulfill request, here are some objective I decided the program works:
 ## Technical
-1. Create a simple Cashier using Python Languange.
+1. Create a simple Cashier using Python Language.
 2. Apply OOP and modularization.
 3. Apply PEP8 principles to write clean Python Program.
 4. Use Try-Exception
